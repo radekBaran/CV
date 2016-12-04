@@ -8,6 +8,7 @@ body{
 }
 
 .col-xs-6{
+	margin-bottom: 1%;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.50);
 }
 
@@ -39,7 +40,21 @@ body{
 	font-weight: 500;
 	margin-left: 3%;
 	color: black;
-	text-shadow: 4px 4px 2px rgba(150, 150, 150, 2);
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
+}
+
+.caption-cont{
+	margin-left: 3%;
+	padding: 2%;
+}
+
+.caption{
+	height: 50px;
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 3%;
+	color: black;
+	text-shadow: 4px 4px 2px rgba(150, 150, 150, 0.5);
 }
 
 .social-icons{
@@ -94,20 +109,24 @@ body{
 }
 
 .my-footer{
-	background-color: gray;
+	background-color: #CFFCEF;
 	padding: 2px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.10);
 }
 
+.my-name{
+	background-color: #CFFCEF;
+	margin-bottom: 4%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
 .name{
-	padding: 5%;
-	color: #004C0A;
-	margin: 5% 5% 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: black;
 	font-size: 80px;
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 2);
 	font-weight: 900;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-
 }
 
 .skills img{
@@ -119,7 +138,7 @@ body{
 .abilities{
 	text-shadow: 4px 4px 2px rgba(150, 150, 150, 2);
 	font-size: 30px;
-	color: #007F12;
+	color: #E50600;
 	font-weight: 700;
 }
 .column{
